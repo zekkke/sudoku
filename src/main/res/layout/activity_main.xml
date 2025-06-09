@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="26dp"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/newGameButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/new_game"
+        android:layout_margin="8dp"
+        android:background="@drawable/custom_button_background"
+        android:textColor="#18CAA3"
+        android:textSize="18sp"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/continueButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/continue_game"
+        android:layout_margin="8dp"
+        android:background="@drawable/custom_button_background"
+        android:textColor="#18CAA3"
+        android:textSize="18sp"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/levelButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/select_level"
+        android:layout_margin="8dp"
+        android:background="@drawable/custom_button_background"
+        android:textColor="#18CAA3"
+        android:textSize="18sp"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/settingsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/settings"
+        android:layout_margin="8dp"
+        android:background="@drawable/custom_button_background"
+        android:textColor="#18CAA3"
+        android:textSize="18sp"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/exit"
+        android:layout_margin="8dp"
+        android:background="@drawable/custom_button_background"
+        android:textColor="#18CAA3"
+        android:textSize="18sp"
+        android:padding="10dp"/>
+
+</LinearLayout> 

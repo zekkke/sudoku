@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/difficulty"
+        android:textSize="30sp"
+        android:textColor="#18CAA3"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="46dp"/>
+
+    <Button
+        android:id="@+id/easyButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/easy"
+        android:layout_margin="8dp"
+        android:background="@drawable/custom_button_background"
+        android:textColor="#18CAA3"
+        android:textSize="18sp"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/mediumButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/medium"
+        android:layout_margin="8dp"
+        android:background="@drawable/custom_button_background"
+        android:textColor="#18CAA3"
+        android:textSize="18sp"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/hardButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hard"
+        android:layout_margin="8dp"
+        android:background="@drawable/custom_button_background"
+        android:textColor="#18CAA3"
+        android:textSize="18sp"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/veryHardButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/very_hard"
+        android:layout_margin="8dp"
+        android:background="@drawable/custom_button_background"
+        android:textColor="#18CAA3"
+        android:textSize="18sp"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/sixBySixButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/custom_button_background"
+        android:padding="10dp"
+        android:text="@string/six_by_six"
+        android:textColor="#18CAA3"
+        android:textSize="18sp" />
+
+</LinearLayout> 
